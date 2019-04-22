@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/javascript" href="assets/javascript/game.js">
+
+
+
+
+    <title>Easter Egg Collector</title>
+</head>
+
+<body>
+
+    <nav class="nav">
+        <h2> Easter Egg Collector </h2>
+    </nav>
+    <div class="container">
+        <div class="div row"></div>
+        <div class="col-md">
+            <h4>Instructions</h4>
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four Easter eggs below. By clicking on an Easter egg, you will add a specific amount of points
+                to your total score.</p>
+            <p>You will win the game by matching your total score to a random number. You will lose the game if your
+                total score goes above the random number.</p>
+            <p>The value of each Easter egg is hidden from you until you click on it.</p>
+            <p>Each time the game starts, the game will change the value of each Easter egg.</p>
+        </div>
+        <div class="div-row">
+            <div class="col-md2" id="randomNumber"></div>
+            <div class="col-md3">Wins/Losses</div>
+        </div>
+        <div class="div-row2">
+            <p>Eggs - Click to choose an egg!</p>
+            <div class="div_col"><button id="green" onclick="myFunction()"><img
+                        src="../unit-4-game/assets/images/green_egg.png"></button></div>
+            <div class="div_col"><button id="yellow" onclick="myFunction()"><img
+                        src="../unit-4-game/assets/images/yellow_egg.png"></button></div>
+            <div class="div_col"><button id="blue" onclick="myFunction()"><img
+                        src="../unit-4-game/assets/images/blue_egg.png"></button></div>
+            <div class="div_col"><button id="purple" onclick="myFunction()"><img
+                        src="../unit-4-game/assets/images/purple_egg.png"></button></div>
+        </div>
+        <div class="div-row">
+            <div class="col-md4">Total Score Bar</div>
+        </div>
+        <div class="div-row">
+            <div class="col-md5">Score Total</div>
+        </div>
+        <div class="div-row"></div>
+    </div>
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    </script>
+</body>
+
+</html>
