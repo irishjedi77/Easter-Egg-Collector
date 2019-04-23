@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/javascript" href="assets/javascript/game.js">
 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 
 
@@ -35,30 +34,35 @@
             <p>Each time the game starts, the game will change the value of each Easter egg.</p>
         </div>
         <div class="div-row">
-            <div class="col-md2" id="randomNumber"></div>
-            <div class="col-md3">Wins/Losses</div>
+            <div class="col-md2" id="randomNumber">
+                <p>Target Number:</p>
+            </div>
+            <div class="col-md3">
+                <p id="numberWins">Wins: </p>
+                <p id="numberLosses">Losses: </p>
+            </div>
         </div>
         <div class="div-row2">
             <p>Eggs - Click to choose an egg!</p>
-            <div class="div_col"><button id="green" onclick="myFunction()"><img
+            <div class="div_col"><button class="eggs" id="green"><img
                         src="../unit-4-game/assets/images/green_egg.png"></button></div>
-            <div class="div_col"><button id="yellow" onclick="myFunction()"><img
+            <div class="div_col"><button class="eggs" id="yellow"><img
                         src="../unit-4-game/assets/images/yellow_egg.png"></button></div>
-            <div class="div_col"><button id="blue" onclick="myFunction()"><img
+            <div class="div_col"><button class="eggs" id="blue"><img
                         src="../unit-4-game/assets/images/blue_egg.png"></button></div>
-            <div class="div_col"><button id="purple" onclick="myFunction()"><img
+            <div class="div_col"><button class="eggs" id="purple"><img
                         src="../unit-4-game/assets/images/purple_egg.png"></button></div>
         </div>
         <div class="div-row">
-            <div class="col-md4">Total Score Bar</div>
+            <div class="col-md4">Total Score:</div>
         </div>
         <div class="div-row">
-            <div class="col-md5">Score Total</div>
+            <div class="col-md5" id="userTotal"></div>
         </div>
         <div class="div-row"></div>
     </div>
 
-    </script>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -68,6 +72,8 @@
         crossorigin="anonymous"></script>
 
     </script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </body>
 
 </html>
