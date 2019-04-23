@@ -81,6 +81,7 @@ body {
     margin-bottom: 200px;
     padding-left: 10px;
     padding-bottom: 10px;
+    height: 80px;
     background-color: aqua;
   }
 
@@ -108,8 +109,10 @@ body {
   #userTotal {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25pt;
+    font-size: 40pt;
     font-style: normal;
     color: black;
   }
+
+ 
   

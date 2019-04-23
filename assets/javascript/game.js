@@ -26,7 +26,8 @@ $(document).ready(function () {
 
     function winner() {
         wins++;
-        $('#numberWins').text("Wins: " + wins);
+        $("#numberWins").text("Wins: " + wins);
+        $("<img src=https://i.imgur.com/53R6lo4.jpg>").appendTo($(".col-md"));
         reset();
     }
 
@@ -42,7 +43,6 @@ $(document).ready(function () {
 
     $("#green").on('click', function () {
         total = total + green;
-        $("#green").append(total + green);
         console.log("Total: " + total);
         $("#userTotal").text(total);
             if (total == randNum){
@@ -57,7 +57,6 @@ $(document).ready(function () {
 
     $("#yellow").on('click', function () {
         total = total + yellow;
-        $("#yellow").append(total + yellow);
         console.log("Total: " + total);
         $("#userTotal").text(total);
             if (total == randNum){
@@ -72,7 +71,6 @@ $(document).ready(function () {
 
     $("#blue").on('click', function () {
         total = total + blue;
-        $("#blue").append(total + blue);
         console.log("Total: " + total);
         $("#userTotal").text(total);
             if (total == randNum){
@@ -87,7 +85,6 @@ $(document).ready(function () {
 
     $("#purple").on('click', function () {
         total = total + purple;
-        $("#purple").append(total + purple);
         console.log("Total: " + total);
         $("#userTotal").text(total);
             if (total == randNum){
