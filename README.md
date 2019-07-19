@@ -9,6 +9,6 @@ The player wins if their total score matches the random number from the beginnin
 When the game begins again, the player should see a new random number. Also, all of the eggs will have four new hidden values and the user's score (and score counter) will reset to zero.
 
 # Demo
-https://irishjedi77.github.io/Easter-Egg-Collector/
+https://irishjedi77.github.io/unit-4-game/
 
 Created by: Erin Lyden 
